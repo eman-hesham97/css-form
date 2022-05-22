@@ -1,0 +1,92 @@
+<html style="background-color:rgb(214, 141, 132);">
+        <form>
+            <table id="table" border="10" style="background-color: white;">
+            <thead style="font-weight: bold;font-size: x-large;text-align: center;">
+                    <tr><th colspan="2">Registeration Form</th></tr>
+            </thead>
+        
+            <tr>
+                <th>First Name</th>
+                <th style="column-width: 100px;">
+                    <input type="text" placeholder="First Name">
+                </th>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <th>
+                    <input type="text" placeholder="Last Name">
+                </th>
+            </tr>
+            <tr>
+                <th>User Name</th>
+                <th>
+                    <input type="text" placeholder="User Name">
+                </th>
+            </tr>
+            <tr>
+                <th>Pass</th>
+                <th>
+                    <input type="password" placeholder="Password">
+                </th>
+            </tr>
+            <tr>
+                <th>Track</th>
+                <th>
+                   <select>
+                       <option>IOT</option>
+                       <option>Telecom</option>
+                       <option>SD</option>
+                   </select>
+                </th>
+            </tr>
+            <tr >
+                <th rowspan="2">Gender</th>
+                <td>
+                    <input type="radio" name="gender">Female
+                </td>    
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="gender">Male 
+                </td>
+            </tr>
+            <tr>
+                <th>Favorites</th>
+                <th>
+                    <input type="checkbox">Football
+                    <input type="checkbox">Basketball
+                    <input type="checkbox">Games
+                    <br>
+                    <input type="checkbox">Reading
+                    <input type="checkbox">Swimming
+                    <input type="checkbox">Travel
+                </th>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <th>
+                    <textarea rows="5" cols="20"></textarea>
+                </th>
+            </tr>
+            <tfoot  style="text-align:center;">
+                <td colspan="2">
+                <input type="button" value="submit">
+                <input type="reset" value="clear">
+            </td>
+            </tfoot>
+        </table> 
+        </form>
+
+        <style>
+           #table{ 
+            border-style: solid;
+            border-color: red;
+            border-width: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+
+
+        </style>
+</html>
